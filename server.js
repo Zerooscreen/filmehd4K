@@ -11,7 +11,7 @@ const {
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const DOMAIN = 'https://filmehd4K.up.railway.app'; // Sesuaikan dengan domain Railway Anda
+const DOMAIN = 'https://filmehd4k.up.railway.app'; // Sesuaikan dengan domain Railway Anda
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
