@@ -11,7 +11,7 @@ const {
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const DOMAIN = 'https://filmehd4K.vercel.app';
+const DOMAIN = 'https://filmehd4-k.vercel.app';
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
